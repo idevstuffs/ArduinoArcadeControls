@@ -4,8 +4,8 @@ const byte ROWS = 2; //two rows (two players)
 const byte COLS = 8; //seven columns (seven buttons)
 
 char keys[ROWS][COLS] = {
-  {'Z','X','C','V','B','N','M', 'N'},
-  {'A','S','D','F','G','H','J', 'O'}
+  {'Z','X','C','V','B','N','M','P'},
+  {'A','S','D','F','G','H','J','O'}
 };
 
 byte rowPins[ROWS] = {2, 3}; //connect to the row pinouts of the kpd
